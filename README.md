@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# Resume Relevance Radar
 
-## Project info
+A modern web application built with React, TypeScript, and Vite that helps analyze and evaluate resume relevance. This project uses a modern tech stack with a beautiful UI powered by shadcn/ui components.
 
-**URL**: https://lovable.dev/projects/b484fa57-20c8-485c-b9af-2fbf802cbdd3
+## 🚀 Features
 
-## How can I edit this code?
+- Modern React application with TypeScript
+- Beautiful UI components using shadcn/ui
+- PDF parsing and analysis capabilities
+- Responsive design with Tailwind CSS
+- Form handling with React Hook Form
+- Data visualization with Recharts
+- Client-side routing with React Router
+- Toast notifications with Sonner
+- Theme support with next-themes
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend Framework:** React 18
+- **Language:** TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui (Radix UI)
+- **Form Handling:** React Hook Form with Zod validation
+- **Data Fetching:** TanStack Query
+- **Routing:** React Router DOM
+- **Charts:** Recharts
+- **PDF Processing:** PDF.js
+- **Development Tools:** ESLint, TypeScript, SWC
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b484fa57-20c8-485c-b9af-2fbf802cbdd3) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd resume-relevance-radar
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+bun dev
+```
 
-**Use GitHub Codespaces**
+## 🏗️ Available Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
-## What technologies are used for this project?
+## 🎨 UI Components
 
-This project is built with:
+The project uses shadcn/ui components, which are built on top of Radix UI primitives. This provides a beautiful, accessible, and customizable component library that includes:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Accordion
+- Alert Dialog
+- Avatar
+- Checkbox
+- Dialog
+- Dropdown Menu
+- Form components
+- Navigation Menu
+- Toast notifications
+- And many more...
 
-## How can I deploy this project?
+## 📝 Development
 
-Simply open [Lovable](https://lovable.dev/projects/b484fa57-20c8-485c-b9af-2fbf802cbdd3) and click on Share -> Publish.
+The project follows modern React best practices and includes:
 
-## Can I connect a custom domain to my Lovable project?
+- TypeScript for type safety
+- ESLint for code linting
+- Tailwind CSS for styling
+- Component-based architecture
+- Responsive design principles
 
-Yes, you can!
+## 🤝 Contributing
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Live link - https://resume-relevance-radar-main.vercel.app/
